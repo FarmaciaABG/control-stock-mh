@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestión de Inventario CECOSF Martín Henríquez</title>
+  <link rel="stylesheet" href="styles-v3.css?v=3.2">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>Gestión de Inventario CECOSF Martín Henríquez</h1>
+    <p>Stock · consumos · trazadores · inventarios · vencimientos</p>
+  </div>
+  <div class="top-status">
+    <span id="masterBadge">Cargando maestro…</span>
+    <span id="stockBadge">Sin stock cargado</span>
+  </div>
+</header>
+
+<main class="container">
+  <section id="alertsArea" class="alerts-area"></section>
+
+  <section class="kpi-grid">
+    <button class="kpi critical" data-kpi="critical"><strong id="kpiCritical">0</strong><span>Críticos</span></button>
+    <button class="kpi warning" data-kpi="review"><strong id="kpiReview">0</strong><span>Bajo mínimo</span></button>
+    <button class="kpi storage" data-kpi="warehouse"><strong id="kpiWarehouse">0</strong><span>Revisar bodega</span></button>
+    <button class="kpi notify" data-kpi="notify"><strong id="kpiNotify">0</strong><span>Informar</span></button>
+    <button class="kpi risk" data-kpi="risk"><strong id="kpiRisk">0</strong><span>Riesgo alto</span></button>
+    <button class="kpi overstock" data-kpi="overstock"><strong id="kpiOverstock">0</strong><span>Sobrestock</span></button>
+    <button class="kpi expiry" data-kpi="expiry"><strong id="kpiExpiry">0</strong><span>Vencimientos</span></button>
+    <button class="kpi exception" data-kpi="exception"><strong id="kpiException">0</strong><span>Excepciones</span></button>
+  </section>
+
+  <section class="panel">
+    <div class="section-head">
+      <div>
+        <h2>Actualización de datos</h2>
+        <p>El maestro ABG se carga automáticamente.</p>
+      </div>
+    </div>
+    <div class="upload-grid">
+      <label class="upload-card primary">
+        <span class="eyebrow">Lunes y jueves</span>
+        <strong>Cargar stock actual Rayen</strong>
+        <small>Conserva la carga anterior para comparar variaciones.</small>
+        <input id="stockFile" type="file" accept=".xlsx,.xls,.csv">
+      </label>
+      <div class="upload-card">
+        <span class="eyebrow">Inicio de mes</span>
+        <strong>Agregar consumo mensual</strong>
+        <small>Carga el consumo del mes anterior o usa el ingreso individual.</small>
+        <div class="inline-fields">
+          <select id="monthSelect"></select>
+          <input id="consumptionFile" type="file" accept=".xlsx,.xls,.csv">
+        </div>
+      </div>
+    </div>
+
+    <div id="monthlyStatus" class="status-strip">Verificando consumo del mes anterior…</div>
+
+    <div class="button-row wrap">
+      <button id="singleConsumptionBtn" class="secondary">Agregar consumo de 1 producto</button>
+      <button id="arsenalBtn" class="secondary">Gestionar arsenal</button>
+      <button id="backupBtn" class="secondary">Exportar respaldo</button>
+      <label class="secondary file-button">Importar respaldo<input id="backupFile" type="file" accept=".json"></label>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="section-head">
+      <div>
+        <h2>Gestión operativa</h2>
+        <p>Accesos rápidos a tareas periódicas.</p>
+      </div>
+    </div>
+    <div class="module-grid">
+      <button id="weeklyInventoryBtn" class="module-card">
+        <span>🎲</span><strong>Inventario rotativo</strong><small>15 productos · Pareto/ABC · prioridad IAAPS/FOFAR</small>
+      </button>
+      <button id="generalInventoryBtn" class="module-card">
+        <span>📋</span><strong>Inventario general</strong><small>Planilla, responsables, cuadratura QF y calendario</small>
+      </button>
+      <button id="ordersBtn" class="module-card" style="display:none">
+        <span>📦</span><strong>Pedidos mensuales</strong><small>Pendiente de configurar plantilla propia de MH</small>
+      </button>
+      <button id="tracerReportBtn" class="module-card">
+        <span>📊</span><strong>Reporte trazadores</strong><small>IAAPS/FOFAR · CPM 3M · 20% · stock actual</small>
+      </button>
+      <button id="expiriesBtn" class="module-card">
+        <span>⏳</span><strong>Vencimientos</strong><small>Carga manual sin lote · cantidad y fecha más próxima</small>
+      </button>
+      <button id="exceptionsBtn" class="module-card">
+        <span>⚠️</span><strong>Excepciones</strong><small>Datos faltantes, sin CPM, sin glosa o sin stock</small>
+      </button>
+      <button id="annualConfigBtn" class="module-card">
+        <span>🗓️</span><strong>Configuración anual</strong><small>Fechas de pedidos e inventarios generales por año</small>
+      </button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="section-head table-head">
+      <div>
+        <h2>Panel de productos del arsenal</h2>
+        <p id="summaryText">Cargando…</p>
+      </div>
+      <div class="button-row">
+        <button id="exportManagementBtn" class="secondary">Exportar gestión</button>
+      </div>
+    </div>
+
+    <div class="filters">
+      <input id="searchInput" type="search" placeholder="Buscar producto…">
+      <select id="programFilter">
+        <option value="">Todos los programas</option>
+        <option value="IAAPS">IAAPS</option>
+        <option value="FOFAR">FOFAR</option>
+        <option value="IAAPS/FOFAR">IAAPS/FOFAR</option>
+        <option value="NO TRAZADOR">No trazador</option>
+      </select>
+      <select id="stateFilter">
+        <option value="">Todos los estados</option>
+        <option value="CRÍTICO">Crítico</option>
+        <option value="REVISAR">Bajo mínimo</option>
+        <option value="OK">OK</option>
+        <option value="SIN CPM">Sin CPM</option>
+        <option value="SIN STOCK">Sin stock</option>
+      </select>
+      <button id="clearFilters" class="secondary">Limpiar</button>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Medicamento</th><th>Programa</th><th>Stock</th><th>Δ stock</th>
+            <th>CPM 3M</th><th>Cobertura</th><th>Tendencia</th><th>Riesgo</th>
+            <th>20%</th><th>40%</th><th>Estado</th><th>Acción</th><th>Glosa bodega</th>
+          </tr>
+        </thead>
+        <tbody id="medTable"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<dialog id="warehouseDialog" class="small-dialog">
+  <form method="dialog">
+    <h3 id="warehouseTitle">Revisión de bodega</h3>
+    <p id="warehouseGlosa"></p>
+    <div class="button-row wrap">
+      <button value="available" class="good-btn">Hay stock → Pedir</button>
+      <button value="unavailable" class="bad-btn">No hay stock → Informar</button>
+      <button value="cancel" class="secondary">Cancelar</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="singleConsumptionDialog" class="medium-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3>Agregar consumo de un producto</h3><p>Corrige o incorpora un valor puntual.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="form-grid three">
+      <label>Medicamento<input id="singleProduct" list="medicineOptions" type="text" placeholder="Buscar…"><datalist id="medicineOptions"></datalist></label>
+      <label>Mes<select id="singleMonth"></select></label>
+      <label>Consumo<input id="singleValue" type="number" min="0" step="1"></label>
+    </div>
+    <div class="button-row"><button type="button" id="saveSingleConsumption" class="good-btn">Guardar</button></div>
+  </form>
+</dialog>
+
+<dialog id="arsenalDialog" class="large-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3>Gestionar arsenal</h3><p>Agrega, edita o retira medicamentos del maestro local.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="form-grid">
+      <label>Glosa ABG<input id="arsenalABG" type="text"></label>
+      <label>Glosa Bodega<input id="arsenalBodega" type="text"></label>
+      <label>Programa<select id="arsenalProgram"><option value="">No trazador</option><option>IAAPS</option><option>FOFAR</option><option>IAAPS/FOFAR</option></select></label>
+      <label class="check"><input id="arsenalControlled" type="checkbox"> Controlado / no revisar bodega</label>
+    </div>
+    <div class="button-row"><button type="button" id="saveArsenal" class="good-btn">Guardar medicamento</button><button type="button" id="clearArsenal" class="secondary">Limpiar</button></div>
+    <input id="arsenalSearch" class="full-search" type="search" placeholder="Buscar en arsenal…">
+    <div class="table-wrap compact"><table><thead><tr><th>Medicamento</th><th>Programa</th><th>Controlado</th><th>Acciones</th></tr></thead><tbody id="arsenalTable"></tbody></table></div>
+  </form>
+</dialog>
+
+<dialog id="weeklyInventoryDialog" class="xlarge-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3>Inventario rotativo semanal</h3><p>15 productos con selección Pareto/ABC y prioridad IAAPS/FOFAR.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="form-grid three inventory-meta">
+      <label>Funcionario responsable<input id="weeklyResponsible" type="text" placeholder="Nombre funcionario"></label>
+      <label>Fecha<input id="weeklyDate" type="date"></label>
+      <label>Regla<input value="9 A · 4 B · 2 C" disabled></label>
+    </div>
+    <div class="button-row wrap"><button type="button" id="generateWeekly" class="good-btn">Generar 15 productos</button><button type="button" id="saveWeekly" class="secondary">Guardar inventario</button><button type="button" id="exportWeekly" class="secondary">Exportar Excel</button></div>
+    <div id="weeklySummary" class="info-strip">Aún no se genera listado.</div>
+    <div class="table-wrap"><table><thead><tr><th>N°</th><th>Medicamento</th><th>ABC</th><th>Trazador</th><th>Stock sistema</th><th>Stock físico</th><th>Diferencia</th><th>Resultado</th></tr></thead><tbody id="weeklyTable"></tbody></table></div>
+    <h4>Historial reciente</h4><div id="weeklyHistory"></div>
+  </form>
+</dialog>
+
+<dialog id="generalInventoryDialog" class="xlarge-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3>Inventario general</h3><p>Planifica fechas, participantes y cuadratura QF.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div id="generalCalendar" class="calendar-list"></div>
+    <div class="button-row wrap"><button type="button" id="addGeneralDate" class="secondary">Agregar fecha</button><button type="button" id="generateGeneral" class="good-btn">Generar planilla general</button><label class="secondary file-button">Cargar inventario completado<input id="generalCompletedFile" type="file" accept=".xlsx,.xls"></label></div>
+    <div class="form-grid four">
+      <label>TENS 1<input id="tens1" type="text" placeholder="Nombre"></label>
+      <label>TENS 2<input id="tens2" type="text" placeholder="Nombre"></label>
+      <label>TENS 3<input id="tens3" type="text" placeholder="Nombre"></label>
+      <label>QF<input id="qfName" type="text" placeholder="Nombre QF"></label>
+    </div>
+    <div id="generalHistory" class="history-list"></div>
+  </form>
+</dialog>
+
+<dialog id="ordersDialog" class="xlarge-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3>Pedidos mensuales a bodega</h3><p>Fechas 2026: 17/09 · 16/10 · 13/11 · 18/12. Se habilita 3 días antes.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div id="orderStatus" class="info-strip"></div>
+    <div class="button-row wrap"><button type="button" id="prepareOrder" class="good-btn">Preparar pedido</button><button type="button" id="exportOrder" class="secondary">Descargar pedido</button></div>
+    <div class="table-wrap"><table><thead><tr><th>Hoja</th><th>Producto</th><th>CPM 3M</th><th>Stock</th><th>Solicitud teórica</th><th>Solicitud real</th></tr></thead><tbody id="orderTable"></tbody></table></div>
+    <h4>Historial</h4><div id="orderHistory"></div>
+  </form>
+</dialog>
+
+<dialog id="expiriesDialog" class="large-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3>Vencimientos próximos</h3><p>Registro manual sin gestión por lote.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="form-grid three">
+      <label>Medicamento<input id="expiryProduct" list="medicineOptions" type="text"></label>
+      <label>Fecha vencimiento<input id="expiryDate" type="date"></label>
+      <label>Cantidad próxima a vencer<input id="expiryQty" type="number" min="0"></label>
+    </div>
+    <div class="button-row"><button type="button" id="saveExpiry" class="good-btn">Guardar</button></div>
+    <div class="table-wrap compact"><table><thead><tr><th>Medicamento</th><th>Fecha</th><th>Cantidad</th><th>Alerta</th><th></th></tr></thead><tbody id="expiryTable"></tbody></table></div>
+  </form>
+</dialog>
+
+<dialog id="exceptionsDialog" class="large-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3>Panel de excepciones</h3><p>Productos que requieren revisión de datos.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div id="exceptionsList"></div>
+  </form>
+</dialog>
+
+
+<dialog id="annualConfigDialog" class="large-dialog">
+  <form method="dialog">
+    <div class="dialog-head">
+      <div>
+        <h3>Configuración anual</h3>
+        <p>Define las fechas operativas del año sin modificar el código.</p>
+      </div>
+      <button value="close" class="secondary">Cerrar</button>
+    </div>
+
+    <div class="config-year-row">
+      <label><strong>Año</strong>
+        <select id="annualYear"></select>
+      </label>
+      <span id="annualYearStatus" class="muted"></span>
+    </div>
+
+    <div class="annual-grid">
+      <section class="subpanel">
+        <div class="subpanel-head">
+          <div>
+            <h4>Pedidos mensuales</h4>
+            <p>Se habilitan 3 días antes y exigen stock Rayen cargado el mismo día.</p>
+          </div>
+          <button type="button" id="addOrderDate" class="secondary">Agregar fecha</button>
+        </div>
+        <div id="annualOrderDates"></div>
+      </section>
+
+      <section class="subpanel">
+        <div class="subpanel-head">
+          <div>
+            <h4>Inventarios generales</h4>
+            <p>Estado: Programado, Postergado o Realizado.</p>
+          </div>
+          <button type="button" id="addAnnualGeneralDate" class="secondary">Agregar fecha</button>
+        </div>
+        <div id="annualGeneralDates"></div>
+      </section>
+    </div>
+
+    <div class="dialog-actions">
+      <button type="button" id="saveAnnualConfig" class="primary-btn">Guardar configuración anual</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="tracerReportDialog" class="large-dialog">
+  <form method="dialog">
+    <div class="dialog-head">
+      <div>
+        <h3>Reporte de trazadores IAAPS / FOFAR</h3>
+        <p>Validación previa antes de generar el archivo.</p>
+      </div>
+      <button value="close" class="secondary">Cerrar</button>
+    </div>
+    <div id="tracerValidationStatus" class="status-strip">Verificando datos…</div>
+    <div id="tracerValidationDetails"></div>
+    <div class="dialog-actions">
+      <button type="button" id="generateTracerReport" class="primary-btn">Generar informe</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="medicineDetailDialog" class="large-dialog medicine-detail-dialog">
+  <form method="dialog">
+    <div class="dialog-head"><div><h3 id="medicineDetailTitle">Ficha del producto</h3><p id="medicineDetailSubtitle">Información operativa e histórica del CECOSF</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div id="medicineDetailSummary" class="detail-summary-grid"></div>
+    <section class="detail-section">
+      <div class="section-head compact"><div><h4>Curva de consumo</h4><p>Consumo mensual histórico y promedio móvil de 3 meses.</p></div></div>
+      <div class="chart-wrap"><canvas id="consumptionChart" width="900" height="320"></canvas></div>
+      <div id="consumptionTrendSummary" class="status-strip"></div>
+    </section>
+    <section class="detail-section">
+      <h4>Histórico de consumos</h4>
+      <div class="table-wrap compact"><table><thead><tr><th>Mes</th><th>Consumo</th><th>CPM 3M</th></tr></thead><tbody id="medicineHistoryTable"></tbody></table></div>
+    </section>
+    <section class="detail-section">
+      <div class="section-head compact"><div><h4>Clasificación administrativa</h4><p>Puedes guardar información complementaria del medicamento.</p></div></div>
+      <div class="detail-form-grid">
+        <label>Subcategoría GES<input id="detailGES" type="text" placeholder="Ej: GES HTA, GES Diabetes"></label>
+        <label>Programa ministerial<input id="detailProgram" type="text" placeholder="Ej: Salud cardiovascular"></label>
+        <label class="check-line"><input id="detailGeneralArsenal" type="checkbox"> Arsenal general</label>
+        <label class="check-line"><input id="detailIAAPS" type="checkbox"> IAAPS</label>
+        <label class="check-line"><input id="detailFOFAR" type="checkbox"> FOFAR</label>
+      </div>
+      <div class="dialog-actions"><button type="button" id="saveMedicineClassification" class="primary-btn">Guardar clasificación</button></div>
+    </section>
+    <section class="detail-section"><h4>Inventarios y vencimientos</h4><div id="medicineOperationalHistory"></div></section>
+  </form>
+</dialog>
+
+<footer>CECOSF Martín Henríquez · v1.0 · Datos operativos guardados localmente en este navegador</footer>
+<script src="app-mh-v1.0.js"></script>
+</body>
+</html>
