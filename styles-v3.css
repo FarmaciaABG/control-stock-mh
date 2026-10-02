@@ -271,3 +271,55 @@ footer{
   color:#d85a97;
   font-weight:700;
 }
+
+
+/* ===== Ajustes visuales MH v1.5 ===== */
+body{
+  background:
+    radial-gradient(circle at 8% 0%, rgba(255,189,220,.55) 0, transparent 30%),
+    radial-gradient(circle at 92% 4%, rgba(251,207,228,.5) 0, transparent 28%),
+    linear-gradient(180deg,#fff5fa 0%,#fff9fc 42%,#fff3f8 100%) !important;
+}
+.topbar{
+  background:linear-gradient(135deg,#ef8db8 0%,#db659c 58%,#c8518e 100%) !important;
+}
+.panel{
+  border-color:#f0ccdc !important;
+  box-shadow:0 10px 28px rgba(204,92,148,.12) !important;
+}
+.kpi-grid .kpi{
+  border-color:#f0d4e1 !important;
+  box-shadow:0 4px 12px rgba(214,117,163,.07);
+}
+.kpi.critical{background:#fff0f5 !important}
+.kpi.warning{background:#fff8ea !important}
+.kpi.storage{background:#f7efff !important;color:#9250c7 !important}
+.kpi.notify{background:#fff2f5 !important;color:#a34d68 !important}
+.kpi.risk{background:#f7efff !important;color:#8b55c5 !important}
+.kpi.overstock{background:#fff4f8 !important;color:#805469 !important}
+.kpi.expiry{background:#fff8ec !important}
+.kpi.exception{background:#fff0f5 !important;color:#b23d67 !important}
+.upload-card.primary{
+  background:linear-gradient(180deg,#fff0f7 0%,#ffe7f2 100%) !important;
+  border:1px solid #e9a9c8 !important;
+  color:var(--text) !important;
+  box-shadow:none !important;
+}
+.upload-card.primary strong,.upload-card.primary small,.upload-card.primary .eyebrow{
+  color:#8b4668 !important;
+}
+.module-card{
+  background:linear-gradient(180deg,#fffdfd 0%,#fff5f9 100%) !important;
+}
+.module-card:hover{
+  background:linear-gradient(180deg,#fff8fc 0%,#ffedf5 100%) !important;
+}
+.status-strip.warning{
+  background:#fff6e9 !important;
+  border-color:#f2d8aa !important;
+}
+.alert.info{
+  background:#fff1f7 !important;
+  color:#8b4668 !important;
+  border-left-color:#db659c !important;
+}

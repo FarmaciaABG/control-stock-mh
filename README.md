@@ -31,3 +31,7 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - v1.4: rediseño visual completo con una estética más rosada, suave y amable.
 - Se ajustó la interfaz con tonos más cálidos, tarjetas redondeadas, paneles más delicados y una presentación más tierna.
 - Se corrigieron textos para identificar el maestro como MH.
+
+- v1.5: refuerzo del diseño rosado y cálido.
+- Mientras no exista una carga de stock Rayen, la ausencia de stock no cuenta como excepción para todos los productos.
+- Se ajusta el lenguaje a "productos" en inventario rotativo porque MH gestiona medicamentos, insumos y dispositivos.
