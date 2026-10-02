@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gestión de Inventario CECOSF Martín Henríquez</title>
-  <link rel="stylesheet" href="styles-mh-v1.6.css">
+  <link rel="stylesheet" href="styles-mh-v2.0.css">
 </head>
 <body>
 <header class="topbar">
@@ -15,6 +15,7 @@
   <div class="top-status">
     <span id="masterBadge">Cargando maestro…</span>
     <span id="stockBadge">Sin stock cargado</span>
+    <button id="cloudBadge" class="cloud-badge" type="button">☁️ Conectar nube</button>
   </div>
 </header>
 
@@ -317,7 +318,31 @@
   </form>
 </dialog>
 
-<footer>CECOSF Martín Henríquez · v1.6 · Datos operativos guardados localmente en este navegador</footer>
-<script src="app-mh-v1.6.js"></script>
+
+<dialog id="cloudDialog" class="cloud-dialog">
+  <form method="dialog" onsubmit="return false">
+    <div class="dialog-head">
+      <div>
+        <h3>☁️ Datos compartidos MH</h3>
+        <p>Conecta esta herramienta a la base en línea para ver el mismo stock, consumos e inventarios desde cualquier dispositivo.</p>
+      </div>
+      <button value="close" class="secondary">Cerrar</button>
+    </div>
+    <div class="cloud-login-box">
+      <label><strong>Código de acceso MH</strong>
+        <input id="cloudAccessCode" type="password" autocomplete="current-password" placeholder="Ingresa el código de acceso">
+      </label>
+      <label class="check-line"><input id="rememberCloudCode" type="checkbox" checked> Recordar en este dispositivo</label>
+      <div id="cloudLoginStatus" class="status-strip">Ingresa el código para conectar.</div>
+      <div class="button-row">
+        <button id="connectCloudBtn" type="button" class="primary-btn">Conectar</button>
+        <button id="disconnectCloudBtn" type="button" class="secondary">Desconectar dispositivo</button>
+      </div>
+    </div>
+  </form>
+</dialog>
+
+<footer>CECOSF Martín Henríquez · v2.0 · Datos operativos guardados localmente en este navegador</footer>
+<script src="app-mh-v2.0.js"></script>
 </body>
 </html>

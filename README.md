@@ -38,3 +38,9 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 
 - v1.6: CSS con nombre nuevo para evitar caché de GitHub Pages y aplicar el rediseño rosado de forma visible.
 - Se corrige el encabezado de Maestro ABG a Maestro MH y se usa “productos” en lugar de “fármacos” para el total del maestro.
+
+- v2.0: conexión con Supabase para datos compartidos entre dispositivos.
+- Stock, consumos mensuales e inventarios rotatorios/generales se sincronizan en línea.
+- Se mantiene almacenamiento local como respaldo operativo si no hay conexión.
+- Primer ingreso: usar el botón “Conectar nube” y el código de acceso MH.
+- En la primera conexión, si la base está vacía, se migran automáticamente consumos, stock e inventarios que existan en ese navegador.
