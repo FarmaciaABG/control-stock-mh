@@ -35,3 +35,6 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - v1.5: refuerzo del diseño rosado y cálido.
 - Mientras no exista una carga de stock Rayen, la ausencia de stock no cuenta como excepción para todos los productos.
 - Se ajusta el lenguaje a "productos" en inventario rotativo porque MH gestiona medicamentos, insumos y dispositivos.
+
+- v1.6: CSS con nombre nuevo para evitar caché de GitHub Pages y aplicar el rediseño rosado de forma visible.
+- Se corrige el encabezado de Maestro ABG a Maestro MH y se usa “productos” en lugar de “fármacos” para el total del maestro.
