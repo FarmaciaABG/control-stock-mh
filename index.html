@@ -10,7 +10,7 @@
 <header class="topbar">
   <div>
     <h1>Gestión de Inventario CECOSF Martín Henríquez</h1>
-    <p>Stock · consumos · inventarios · vencimientos</p>
+    <p>Stock · consumos · inventarios · vencimientos · gestión cotidiana</p>
   </div>
   <div class="top-status">
     <span id="masterBadge">Cargando maestro…</span>
@@ -36,14 +36,14 @@
     <div class="section-head">
       <div>
         <h2>Actualización de datos</h2>
-        <p>El maestro ABG se carga automáticamente.</p>
+        <p>El maestro MH se carga automáticamente.</p>
       </div>
     </div>
     <div class="upload-grid">
       <label class="upload-card primary">
         <span class="eyebrow">Lunes y jueves</span>
         <strong>Cargar stock actual Rayen</strong>
-        <small>Conserva la carga anterior para comparar variaciones.</small>
+        <small>Conserva la carga anterior para comparar variaciones con más claridad.</small>
         <input id="stockFile" type="file" accept=".xlsx,.xls,.csv">
       </label>
       <div class="upload-card">
@@ -60,7 +60,7 @@
     <div id="monthlyStatus" class="status-strip">Verificando consumo del mes anterior…</div>
 
     <div class="button-row wrap">
-      <button id="singleConsumptionBtn" class="secondary">Agregar consumo de 1 producto</button>
+      <button id="singleConsumptionBtn" class="secondary">Agregar consumo de 1 medicamento</button>
       <button id="arsenalBtn" class="secondary">Gestionar arsenal</button>
       <button id="backupBtn" class="secondary">Exportar respaldo</button>
       <label class="secondary file-button">Importar respaldo<input id="backupFile" type="file" accept=".json"></label>
@@ -76,7 +76,7 @@
     </div>
     <div class="module-grid">
       <button id="weeklyInventoryBtn" class="module-card">
-        <span>🎲</span><strong>Inventario rotativo</strong><small>15 productos · Pareto/ABC · prioridad IAAPS/FOFAR</small>
+        <span>🎲</span><strong>Inventario rotativo</strong><small>15 medicamentos · Pareto/ABC · prioridad IAAPS/FOFAR</small>
       </button>
       <button id="generalInventoryBtn" class="module-card">
         <span>📋</span><strong>Inventario general</strong><small>Planilla, responsables, cuadratura QF y calendario</small>
@@ -99,7 +99,7 @@
   <section class="panel">
     <div class="section-head table-head">
       <div>
-        <h2>Panel de productos del arsenal</h2>
+        <h2>Panel de medicamentos del arsenal</h2>
         <p id="summaryText">Cargando…</p>
       </div>
       <div class="button-row">
@@ -108,7 +108,7 @@
     </div>
 
     <div class="filters">
-      <input id="searchInput" type="search" placeholder="Buscar producto…">
+      <input id="searchInput" type="search" placeholder="Buscar medicamento…">
       <select id="programFilter">
         <option value="">Todos los programas</option>
         <option value="IAAPS">IAAPS</option>
@@ -156,7 +156,7 @@
 
 <dialog id="singleConsumptionDialog" class="medium-dialog">
   <form method="dialog">
-    <div class="dialog-head"><div><h3>Agregar consumo de un producto</h3><p>Corrige o incorpora un valor puntual.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="dialog-head"><div><h3>Agregar consumo de un medicamento</h3><p>Corrige o incorpora un valor puntual.</p></div><button value="close" class="secondary">Cerrar</button></div>
     <div class="form-grid three">
       <label>Medicamento<input id="singleProduct" list="medicineOptions" type="text" placeholder="Buscar…"><datalist id="medicineOptions"></datalist></label>
       <label>Mes<select id="singleMonth"></select></label>
@@ -183,13 +183,13 @@
 
 <dialog id="weeklyInventoryDialog" class="xlarge-dialog">
   <form method="dialog">
-    <div class="dialog-head"><div><h3>Inventario rotativo semanal</h3><p>15 productos con selección Pareto/ABC y prioridad IAAPS/FOFAR.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="dialog-head"><div><h3>Inventario rotativo semanal</h3><p>15 medicamentos con selección Pareto/ABC y prioridad IAAPS/FOFAR.</p></div><button value="close" class="secondary">Cerrar</button></div>
     <div class="form-grid three inventory-meta">
       <label>Funcionario responsable<input id="weeklyResponsible" type="text" placeholder="Nombre funcionario"></label>
       <label>Fecha<input id="weeklyDate" type="date"></label>
       <label>Regla<input value="9 A · 4 B · 2 C" disabled></label>
     </div>
-    <div class="button-row wrap"><button type="button" id="generateWeekly" class="good-btn">Generar 15 productos</button><button type="button" id="saveWeekly" class="secondary">Guardar inventario</button><button type="button" id="exportWeekly" class="secondary">Exportar Excel</button></div>
+    <div class="button-row wrap"><button type="button" id="generateWeekly" class="good-btn">Generar 15 medicamentos</button><button type="button" id="saveWeekly" class="secondary">Guardar inventario</button><button type="button" id="exportWeekly" class="secondary">Exportar Excel</button></div>
     <div id="weeklySummary" class="info-strip">Aún no se genera listado.</div>
     <div class="table-wrap"><table><thead><tr><th>N°</th><th>Medicamento</th><th>ABC</th><th>Trazador</th><th>Stock sistema</th><th>Stock físico</th><th>Diferencia</th><th>Resultado</th></tr></thead><tbody id="weeklyTable"></tbody></table></div>
     <h4>Historial reciente</h4><div id="weeklyHistory"></div>
@@ -236,7 +236,7 @@
 
 <dialog id="exceptionsDialog" class="large-dialog">
   <form method="dialog">
-    <div class="dialog-head"><div><h3>Panel de excepciones</h3><p>Productos que requieren revisión de datos.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="dialog-head"><div><h3>Panel de excepciones</h3><p>Medicamentos que requieren revisión de datos.</p></div><button value="close" class="secondary">Cerrar</button></div>
     <div id="exceptionsList"></div>
   </form>
 </dialog>
@@ -291,7 +291,7 @@
 
 <dialog id="medicineDetailDialog" class="large-dialog medicine-detail-dialog">
   <form method="dialog">
-    <div class="dialog-head"><div><h3 id="medicineDetailTitle">Ficha del producto</h3><p id="medicineDetailSubtitle">Información operativa e histórica del CECOSF</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="dialog-head"><div><h3 id="medicineDetailTitle">Ficha del medicamento</h3><p id="medicineDetailSubtitle">Información operativa e histórica del CECOSF</p></div><button value="close" class="secondary">Cerrar</button></div>
     <div id="medicineDetailSummary" class="detail-summary-grid"></div>
     <section class="detail-section">
       <div class="section-head compact"><div><h4>Curva de consumo</h4><p>Consumo mensual histórico y promedio móvil de 3 meses.</p></div></div>
@@ -317,7 +317,7 @@
   </form>
 </dialog>
 
-<footer>CECOSF Martín Henríquez · v1.1 · Datos operativos guardados localmente en este navegador</footer>
-<script src="app-mh-v1.1.js"></script>
+<footer>CECOSF Martín Henríquez · v1.4 · Datos operativos guardados localmente en este navegador</footer>
+<script src="app-mh-v1.4.js"></script>
 </body>
 </html>
