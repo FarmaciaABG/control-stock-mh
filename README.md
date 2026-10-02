@@ -19,3 +19,5 @@ El módulo visible de pedidos queda desactivado hasta contar con una plantilla p
 
 ## Persistencia
 Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado del programa ABG aunque ambos se usen en el mismo navegador.
+
+- v1.1: se elimina únicamente el reporte de trazadores. IAAPS/FOFAR se mantienen para priorizar el inventario rotatorio y facilitar redistribuciones rápidas de trazadores.
