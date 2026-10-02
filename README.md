@@ -44,3 +44,10 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - Se mantiene almacenamiento local como respaldo operativo si no hay conexión.
 - Primer ingreso: usar el botón “Conectar nube” y el código de acceso MH.
 - En la primera conexión, si la base está vacía, se migran automáticamente consumos, stock e inventarios que existan en ese navegador.
+
+- v2.1: conexión automática a Supabase.
+- Ya no se solicita código de acceso al abrir la herramienta.
+- Al abrir MH, la app se conecta y descarga los datos compartidos automáticamente.
+- Cada carga de stock, consumo e inventario se sigue sincronizando en línea.
+- El indicador superior muestra “Sincronizado” cuando la conexión está activa.
+- Al pulsar el indicador de nube se fuerza una resincronización, sin pedir credenciales.
