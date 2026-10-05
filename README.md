@@ -51,3 +51,8 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - Cada carga de stock, consumo e inventario se sigue sincronizando en línea.
 - El indicador superior muestra “Sincronizado” cuando la conexión está activa.
 - Al pulsar el indicador de nube se fuerza una resincronización, sin pedir credenciales.
+
+- v2.2: reparación de migración del último stock local.
+- Al conectarse, la app compara la fecha del último stock guardado en el navegador con Supabase.
+- Si Supabase no tiene stock, o el stock local es más reciente, lo sube automáticamente conservando su fecha.
+- Si existe una cabecera de stock en Supabase pero quedó sin detalle, la app la repara automáticamente.
