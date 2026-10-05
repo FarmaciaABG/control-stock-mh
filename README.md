@@ -60,3 +60,7 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - v2.3: corrige ficha de producto que podía quedar mostrando consumos locales antiguos mientras la nube terminaba de sincronizar.
 - Si una ficha está abierta cuando termina la descarga desde Supabase, se refresca automáticamente.
 - La ficha muestra explícitamente cuál es el último mes de consumo disponible.
+
+- v2.4: corrige descarga incompleta de consumos desde Supabase.
+- Supabase entrega por defecto un máximo de filas por consulta; MH ya supera 1.000 registros históricos.
+- La app ahora descarga todos los consumos en bloques paginados, por lo que agosto y meses posteriores aparecen completos en fichas, gráficos y CPM.
