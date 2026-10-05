@@ -64,3 +64,7 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - v2.4: corrige descarga incompleta de consumos desde Supabase.
 - Supabase entrega por defecto un máximo de filas por consulta; MH ya supera 1.000 registros históricos.
 - La app ahora descarga todos los consumos en bloques paginados, por lo que agosto y meses posteriores aparecen completos en fichas, gráficos y CPM.
+
+- v2.5: la ficha de cada producto consulta directamente sus consumos en Supabase al abrirse.
+- Esto elimina la dependencia de caché/localStorage o de la descarga global para mostrar el último mes.
+- Si agosto está en Supabase, la ficha debe mostrarlo aunque el histórico local haya quedado antiguo.
