@@ -56,3 +56,7 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - Al conectarse, la app compara la fecha del último stock guardado en el navegador con Supabase.
 - Si Supabase no tiene stock, o el stock local es más reciente, lo sube automáticamente conservando su fecha.
 - Si existe una cabecera de stock en Supabase pero quedó sin detalle, la app la repara automáticamente.
+
+- v2.3: corrige ficha de producto que podía quedar mostrando consumos locales antiguos mientras la nube terminaba de sincronizar.
+- Si una ficha está abierta cuando termina la descarga desde Supabase, se refresca automáticamente.
+- La ficha muestra explícitamente cuál es el último mes de consumo disponible.
