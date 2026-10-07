@@ -1,1 +1,1229 @@
-{"sheets": {}}
+{
+  "version": "2026-09-10",
+  "sheets": {
+    "MEDICAMENTOS": [
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Acenocumarol 4 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Acetazolamida  250mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Aciclovir Comprimidos 400 Mg   Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Aciclovir Crema Dermica 5% (15 g)   Crema"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Acido Acetilsalicilico   100 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Acido Folico  1 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Acido Folico 0,4 mg.  Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Acido Folico 5 mg Comprimidos   Comprimidos"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "ACIDO TRANEXAMICO  1G/10ML  AMPOLLAS"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Acido Valproico  500 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Acido Valproico 250 mg/5ml Jbe."
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Acido Valproico Comprimidos Recubiertos 200 Mg"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Acido Valp. Gotas Orales 300 mg/ ml fco. 25 ml (Atemperator)"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Acido Valp. Liberación Prolongada 500 mg  Cm."
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Adapaleno  0,1 %  Gel Topico  30g.  ud"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Adapaleno  0,3 %  Gel Topico  30g.  ud"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Adenosina ampollas 6mg/2 ml"
+      },
+      {
+        "tipo": "INSUMO",
+        "producto": "Agua Esteril para Inyectables 10ml  AMPOLLAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Agua Esteril para Inyectables 20ml Ampolla"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Alopurinol 100 mg Cm.   Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Aluminio Hidróxido 6% gel   FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Amikacina 500mg/2ml  AMPOLLAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "AMINOFILINA 250MG/10ML   FRASCOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Amiodarona Clorhidrato Solucion Inyectable 150 Mg/ 3 Ml Amp."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Amitriptilina Clorhidrato 25 mg  Cm."
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Amlodipino  10 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Amlodipino 5 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Amoxicilina  500 mg  CAPSULAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Amoxicilina Con Acido Clavulanico  500 / 125mg  Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Amoxicilina Con Acido Clavulanico 400 mg./57 mg. Jbe. 5 ml.Frco."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Amoxicilina Polvo P/Susp.Oral  500 mg/5 ml (60 ml)  JARABE"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Anfebutamona 150 mg LIB Prolongada 150 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Antiespasmodico Adulto Sup. (Abalgin sup. Adu.))"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Aripiprazol  10 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Atenolol  50 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Atorvastatina  20 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Atorvastatina 10 mg  Cm"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Atropina Sulfato Solucion Inyectable 1 Mg/Ml (amp)"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Azitromicina 400 mg / 5 Ml Fco."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Azitromicina 500 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Betametasona  0,1 % Sol. Oft. Gotas Esteril  10 ml  Fco"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Betametasona Crema Dérmica  0,05% (15 gr)  CREMA"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Betametasona Solucion Inyectable 4 Mg/Ml (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Betaxolol 0,5 % Sol. Oft. 5 ml ud.   Unidad"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "BICARBONATO DE SODIO 8.4% 10ML  AMPOLLAS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Brimonidina 0.2% 5ml  FRASCOS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Brinzolamida / Tartrato de Brimonidina  10mg. 2mgml (5ml)  ud."
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Brinzolamida 1 %   5 ml   FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Bromuro de Ipratr. 0,25 mg + Fenoterol 0,5 mg sol. inhalación   Fco"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Bromuro De Ipratr. Aerosol Para Inhalacion 20 Mcg/Dosis (200 dos)"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Budesonida Adultos Aerosol  Inhalacion 200 Mcg/Dosis (200 dos)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Captopril Comprimidos 25 Mg   Comprimidos"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Carbamazepina  200 mg  Cm."
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Carbamazepina Liberación Prolongada 400 mg  Cm."
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Carbomer 0,04 mg (Lacryvisc) 10 gr  GEL"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Carbonato De Litio Comprimidos 300 Mg"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Carvedilol  12,5 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Carvedilol  25mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Carvedilol 6,25 mg Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cefadroxilo 500 mg Capsulas"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cefadroxilo Polvo Para Susp. Oral 250 Mg/5 Ml (60 ml)Fco."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Ceftriaxona 1 gr  FRASCOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Celecoxib Capsulas 200 Mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cetirizina 5 mg/5ml (60ml) JARABE Fco."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Cianocobalamina 1000 mcg/ml ampollas"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Ciclobenzaprina Clorhidrato 10 Mg Cm. Recubiertos"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Ciclopentolato Clorhidrato  1% 15ml  GOTAS"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Ciclopiroxolamina 1% Crema Dermica  30g ud"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Ciprofloxacino Comprimidos Recubiertos 500 Mg   Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Citalopram Comprimidos Recubiertos 20 Mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Claritromicina Comprimidos Recubiertos 500 Mg   Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Claritromicina Polvo Gran. Para Susp. Oral 250 Mg/5 Ml (80 ml)Fco."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Clindamicina 300 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Clobetasol Propionato 0,05% 25g Crema Topica Ud."
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Clofazimina  100 mg  CAPSULAS"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "CLOMIPRAMINA 75 MG Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Clopidogrel 75 mg comprimidos   Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cloranfenicol Solución Oftálmica  10 ml  FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cloranfenicol Unguento Oftalmico 1% (3,5 gr)  POMO"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Clorfenamina Maleato Comprimidos Recubiertos 4 Mg   Cm."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Clorfenamina Maleato Solucion Inyectable 10 Mg/Ml ( amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Clorpromazina Clorhidrato Comprimidos 100 Mg   Comprimidos"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Clorpromazina Clorhidrato Solucion Inyectable 25 Mg/2 Ml (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Clotrimazol 500 Mg    OVULOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Clotrimazol Crema Topica 1%   Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cloxacilina Comprimidos Recubiertos 500 Mg   Comprimidos"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Clozapina  100 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cotrimoxazol 240mg / 5 ml Suspension Oral (50 ml)   Frasco"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Cotrimoxazol Comprimidos Forte 800 +160 mg.   Comprimidos"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Crema Corporal Humectante Con UREA 10% 400ml fco."
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Cycloserine   250 mg.  Capsulas"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Desloratadina (Ira-Era) 5 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Desloratadina 2,5mg / 5ml  Jbe"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Dexametasona Solución Inyectable 4 mg/mL   AMPOLLAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Diclofenaco Sodico  50 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Diclofenaco Sodico Solucion Inyectable 75 Mg/3 Ml (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Diclofenaco Sodico Supositorios Infantil 12,5 Mg   Sup."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Digoxina  0,25 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Disulfiramo Comprimidos 500 Mg   Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Domperidona 1 mg / ml. Gotas   Frasco"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Domperidona 10 mg Cm.   Comprimidos"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Donepezilo 10 mg. Recubierto Cm."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Dopamina Clorhidrato 200mg/5ml  AMPOLLAS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Dorzolamida 20 mg. + Timolol 5 mg.    FRASCOS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Dorzolamida 20 MG. 2 % Sol. Oft. Esteril 5 ml ud."
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Doxiciclina 100 mg.    CAPSULAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Duloxetina  con Granulos Con Recub. Enterico 30 Mg.   Cap."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Dutasterida / Tamsulosina Clorhidrato 0,5 mg/0,4 mg Cap.   Cap."
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Enalapril Maleato Comprimidos Recubiertos  10 mg  Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Enema fosfato adulto   FRASCOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Epinefrina Solucion Inyectable 1 Mg/1 Ml (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Eritromicina Comprimidos Recubiertos 500 Mg   Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Eritromicina Polvo P/ Suspension Oral 200 Mg/5 Ml   Frasco"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Espironolactona Comprimidos 25 Mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Estreptomicina F. A. 1 G Amp.   Ampollas"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Eszopiclona Comprimidos Recubiertos 3 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Etambutol  400 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Etambutol 200 mg Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Famotidina  40 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Famotidina Solucion Inyectable 20 mg/2ml Ampolla"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Fase 1.Diaria Rifamp. 150/Pirazina. 400/Isoniaz. 75/Etamb. 275 Cm"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Fase 2.Trisemanal Rifampicina 150/Isoniazida 150 Cm"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Fase 2.Trisemanal Rifampicina 150/Isoniazida 75 Cm"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Fenilefrina 2,5%  Solución Oftalmica Estéril 5ml Fco. Ud."
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Fenitoina Sodica  100 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Flucloxacilina  500 mg  CAPSULAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Flucloxacilina Polvo Para Jarabe 250 mg/5ml (60ml)  FRASCOS"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Fluconazol 150 mgs. Caps."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Flufenazina Decanoato 250 Mg/10 Ml Solucion Inyectable (modecate)"
+      },
+      {
+        "tipo": "INSUMO",
+        "producto": "Flujometro Con Regulador  Ud."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Flumazenil 0,5 mg/ 5ml Sol. Inyectable Via Intravenosa Amp."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Fluoxetina Clorhidrato 20 Mg  Comprimidos"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Fluticasona 125 mcg Do Inhalador"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Fluticasona/Salmeterol 125 mcg/25 ug Do Inhalador"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Fluticasona/Salmeterol 250 mcg/25 ug Do Inhalador"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Fumarato Ferroso 330 mg Cap. Con Granulos Con Hierro De Liber. Prolon. (Folifer)"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Furosemida  40 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Furosemida Solucion Inyectable 20 Mg/1 Ml (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Gemfibrozilo Comprimidos Recubiertos 600 Mg   Comprimidos"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Gentamicina Solucion Inyectable 80 Mg/2 Ml (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Gentamicina Solucion Oftalmica  0,3% (5 ml)  FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Gentamicina Unguento Oftálmico 0,3%  POMO"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Glibenclamida  5 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Glicerina 3g adulto   SUPOSITORIOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "GLUCONATO DE CALCIO 10% 10ML  AMPOLLAS"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Haloperidol 1 Mg Comprimidos"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Haloperidol 5 Mg / 1 ml amp."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Haloperidol BE 5 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Hidralazina 50 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Hidroclorotiazida Comprimidos 50 Mg"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Hidrocortisona 1 %    CREMA"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Hidrocortisona Polvo Para Solucion Inyectable 100 Mg  Amp."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Hidrocortisona Polvo Para Solucion Inyectable 500 Mg  Amp."
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Hidroxizina 10mg/5ml. Jarabe 120 ml. Fco."
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Hidroxizina 20 mg.  Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Hipoclorito de Sodio 4% o 5% Lts.   Litro"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Ibuprofeno  200 mg/5 ml (100ml)  JARABE"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Ibuprofeno Comprimidos Recubiertos  400 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Imipramina Clorhidrato Comprimidos 25 Mg   Comprimidos"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Insulina Cristalina 100 U.I./mL F.A. 10 mL"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Insulina Humana NPH Inyectable 100 U.I./mL F.A 10 mL"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Isoniazida  200 mg/5 ml  Suspension oral  120 ml  Fco"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Isoniazida cm 100 mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Isoniazida cm 300 mg   Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Isoniazida cm 300 mg Cm. + Rifapentine 300 mg Cm Recub."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Isosorbide Dinitrato   10 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Ketoconazol  2% Shampoo  100ml Fco."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "KETOPROFENO 100MG/2ML  IV   AMPOLLAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Ketorolaco 30 mg sublingual   COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Ketorolaco Trometamol  30 mg/ 1 ml Amp."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Lactulosa 65% o 66,7% sol. oral 200 mL   FRASCOS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Lagrima artificial    FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Lamotrigina  100 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Lamotrigina  50 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Lamotrigina Cm 50 Mg (S. S. M. S.)"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Lanatosido C 0,4 Mg/2Ml Ampolla"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Latanoprost monodosis 0.2ml 50mcg/ml   AMPOLLAS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Levetiracetam  1000 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Levetiracetam  500 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Levetiracetam 100 mg/ml SOL. ORAL"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Levodopa / Carbidopa  250 / 25 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Levodopa/Benserazida  200/ 50 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Levodropropizina  60mg/10 ml  Jarabe  120ml"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Levotiroxina  100 mcg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Levotiroxina  50 mcg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Lidocaina Clorhidrato 2% Solucion Inyectable Amp. De 5 Ml"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Loratadina  5mg / 5ml  Jbe x 60ml"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Loratadina 10 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Losartan Potasico Comprimidos Recubiertos  50 mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Mebendazol Comprimidos 100 Mg   Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Mebendazol Suspension 100 Mg/5 Ml (30 ml)   Frasco"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Memantina  10 mg.  Cm.   COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Metamizol 300 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Metamizol Sodico (Dipirona) Solucion Inyectable 1 gr/2 ml  Amp."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Metamizol sup. 250 mg   SUPOSITORIOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Metformina 1000 mg XR  COMPRIMIDOS"
+      },
+      {
+        "tipo": "FOFAR",
+        "producto": "Metformina Comprimido Recubierto 850 mg  Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Metildopa  250 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Metoclopramida Clorhidrato 10 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Metoclopramida Clorhidrato Solucion Inyectable 10 Mg/2 Ml (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Metronidazol 125 mg/5ml  120ml Susp. Oral  Jbe"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Metronidazol 500 mg Ovulos  ud.   OVULOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Metronidazol Comprimidos Recubiertos 500 Mg   Cm."
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Metronidazol Gel 0,75 %    GEL"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Miconazol 2% gel 40 g   POMO"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Midazolam Solucion Inyectable 5 Mg/1 Ml (amp)   Ampollas"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Mirtazapina  30 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Mometasona  Furoato 0,1% 15g  ud.  CREMA"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "N-Acetilcisteína jbe 100mg/5mL   FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Nirmatrelvir/Ritonavir 150/100 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Nistatina 100.000  UI/ml Susp. Oral para Gotas Fco 20 a 30 Ml"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Nistatina 100.000 UI   OVULOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Nitrofurantoina Macrocristales 100 mg  CAPSULAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Nitrofurantoina Suspension Oral 25Mg/5 Ml (60 ml)   Frasco"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Olanzapina Comprimidos Recubiertos 10 Mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Omeprazol  20 mg  CAPSULAS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Omeprazol Liofilizado para Sol. Inyectable 40 mg.  Amp."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Ondansetron  4mg / 2ml Sol. Iny. Amp."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Papaverina/ Atropina (Dolospam)  40 mg/ 0,5 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Paracetamol   500 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Paracetamol  Sup. 125 mg  SUPOSITORIOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Paracetamol Infantil Comprimidos Masticables 80 Mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Paracetamol Sol.Para Gotas Orales 100 Mg/Ml (15 ml)   Frasco"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Pargeverina 5mg / 2ml Amp."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Paroxetina 20 Mg Comprimidos Recubiertos"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Penicilina G (Como Benzatina)Polvo Susp. Inyect. 1,200,000 U.I. ud."
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "PILOCARPINA 4%   GOTAS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Pirazinamida Cm 500 Mg"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Piridoxina  50 mg. Cm."
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "PIRIDOXINA 10MG  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Pramipexol   0,25 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Pramipexol  1 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Prednisona  20 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Prednisona  5  Mg.  Cm.   COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Prednisona Jarabe 20 mg/5 ml  FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Pregabalina 75 mg. Cm.   Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Primidona 250 Mg Comprimidos   Comprimidos"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Propranolol  40 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Propranolol Clorhidrato 1Mg/1Ml inyectable Amp. 1 ml"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Quetiapina  100 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Quetiapina  25 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Quetiapina 25 mg. Cm. (entrega S.S.M.S.)"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Ranitidina Solucion Inyectable 50 Mg/2 Ml"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Rifampicina Cp 150 Mg"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Rifapentine 150 mg. Cm."
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Risperidona Comprimidos Recubiertos 1 Mg"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Risperidona Comprimidos Recubiertos 3 Mg"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Risperidona Solucion Oral Gotas 1mg/ml (30 ml) (22gotas/ml)"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Salbutamol  100 ug/dosis  INHALADORES"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Sales Para Rehidratacion Oral-60 Polvo Para Solucion (sac)   Sobre"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Sales Para Rehidratacion Oral-90 Polvo Para Solucion (sac)   Sobre"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Salmeterol 25 Ug/Do Inhalador Presurizado Fc 120 Do"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Sertralina  50 mg   COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Sulfato de Magnesio  25% (5 ml)   AMPOLLAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Sulfato Ferroso  200 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Sulfato Ferroso Soluc. Para Gotas Orales 125 Mg/Ml (10 ml)   Fco."
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Suxametonio CI 100 mg/5 ml Amp."
+      },
+      {
+        "tipo": "TELEDERMATOLOGIA",
+        "producto": "Terbinafina   Clorhidrato Sol. Topica 1%  15ml"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Terbinafina  250 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Tetraciclina Clorhidrato Capsulas 250 Mg   Comprimidos"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Timolol 0,5 %    10 ml.  FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Tioridazina Clorhidrato Grageas 100 Mg Cm.   Comprimidos"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Tobramicina 0.3% / Dexametasona 0.1% 0.3% 5ml  GOTAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Tramadol Clorhidrato 100 mg/2 mL sol. iny.   AMPOLLAS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Tramadol Clorhidrato Cm 50 Mg"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Tramadol Clorhidrato Fc 100 Mg/Ml Solucion En Gotas 10 Ml"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Travoprost 0,004% + Timolol 0,5 mg. Fco (Duotrav)   FRASCOS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Trazodona Clorhidrato 100 mg  CAPSULAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Trazodona Clorhidrato 100 mg COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Trihexifenidilo Clorhidrato (Tonaril) 2 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "UAPO",
+        "producto": "Tropicamida  1 % Solucion Oftalmica Esteril  15 ml. Fco Ud."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Vaselina esteril ampollas 10 ml ud."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Venlafaxina 37.5 mg Liberación Prolongada  CAPSULAS"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Venlafaxina 75 mg XR  COMPRIMIDOS"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Verapamilo 5 mg/ml. Amp"
+      },
+      {
+        "tipo": "Prog. Ministerial",
+        "producto": "Vildagliptina  50  mg.  Cm."
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Vitaminas ACD gotas fco 30 ml   Frasco"
+      },
+      {
+        "tipo": "INYECTABLE",
+        "producto": "Vitaminas B1, B6, B12 10.000 Solucion Inyectable (amp)"
+      },
+      {
+        "tipo": "MEDICAMENTO",
+        "producto": "Zinc sol. oral gotas 5mg/mL   FRASCOS"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Ziprasidona  80mg  CAPSULAS"
+      },
+      {
+        "tipo": "CESAM",
+        "producto": "Zopiclona Comprimidos Recubiertos 7,5 Mg"
+      }
+    ],
+    "PATERNIDAD": [
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "(Anulette) Levonorgestrel 0,15mg / Etinilestradiol 0,03mg Recubierto Cm.  ( blister 28cm )  CICLOS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Anticonceptivo de emergencia. 0,75 mg o 1,5 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Estradiol gel 0,5 mg/ dosis   FRASCOS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Estradiol Micronizado ciclo 1 mg.  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Estradiol/Didrogesterona   1mg/5mg ud."
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Etonogestrel implante subcutaneo 68 mg  UNIDAD"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Etonogestrel/Etinilestradiol  11,7mg/2,7mg (Anillo Vaginal)  Sobre ud."
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Levonorgestrel  (Anulit) 0,03mg.  CICLOS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Levonorgestrel Dispositivo Intrauterino 20mcg/24 hrs. (Mirena)   52mg"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Levonorgestrel implante subdérmico + Trocar 2x75 mg  OTROS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Lubricante acuoso (Prog. salud Sexual y Reproductiva) POMO"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Medroxiprogesterona Acetato 150 mg./1 ml. 150mg/1ml  JERINGA"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Medroxiprogesterona Acetato Susp. Inyectable (Sayana ) 104 mg/0.65 ml  JERINGA"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Medroxiprogesterona/Estradiol (Novafem Jeringa) 25/5 mg  JERINGA"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Nomegestrol  5 mg  COMPRIMIDOS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Noretisterona/ Estradiol (Climaterio) 0,5/ 1mg Cm."
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Noretisterona/Estradiol (Mesigyna) 50/5 mg   JERINGA"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Preservativo Femenino   Ud."
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Preservativos resistente , C/Lubricante a base solucion acuosa o silicona ud."
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Progesterona Micronizada  100 mg  CICLOS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "T  de Cobre Modelo 380A   UNIDAD"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Test de Embarazo en orina   OTROS"
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Test VIH  (Sida)  Ud."
+      },
+      {
+        "tipo": "Prog. Salud Sexual y Reproductiva",
+        "producto": "Tibolona   2,5 mg  COMPRIMIDOS"
+      }
+    ]
+  }
+}

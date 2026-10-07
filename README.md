@@ -68,3 +68,17 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - v2.5: la ficha de cada producto consulta directamente sus consumos en Supabase al abrirse.
 - Esto elimina la dependencia de caché/localStorage o de la descarga global para mostrar el último mes.
 - Si agosto está en Supabase, la ficha debe mostrarlo aunque el histórico local haya quedado antiguo.
+
+- v3.0: se habilita el módulo Pedido mensual para CECOSF Martín Henríquez.
+- Usa exactamente la plantilla oficial de ABG (`pedido_template.xlsx`).
+- Exporta solo las hojas MEDICAMENTOS y PATERNIDAD, igual que la herramienta ABG.
+- Mantiene las columnas oficiales: TIPO, PRODUCTO, CONSUMO MENSUAL, STOCK ACTUAL, SOLICITUD TEORICA, SOLICITUD REAL y ENTREGA DE BODEGA.
+- CPM 3M y stock actual se cargan automáticamente; SOLICITUD REAL queda editable.
+- Los controlados/no dispensables de MH se excluyen del pedido.
+- Conserva la fórmula original de SOLICITUD TEÓRICA de la planilla.
+
+- v3.1: permite registrar varios meses de consumo sin cerrar la ventana.
+- Tipo de producto: Medicamento, Insumo, Dental y Curación avanzada.
+- Subcategorías filtrables: GES, Programa Ministerial, Arsenal general, FOFAR e IAAPS.
+- Filtro adicional por detalle GES / programa ministerial.
+- Clasificaciones de MH sincronizadas con Supabase.
