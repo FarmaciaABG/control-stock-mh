@@ -82,3 +82,7 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - Subcategorías filtrables: GES, Programa Ministerial, Arsenal general, FOFAR e IAAPS.
 - Filtro adicional por detalle GES / programa ministerial.
 - Clasificaciones de MH sincronizadas con Supabase.
+
+- v3.1.1: corrige #REF! en la columna SOLICITUD TEÓRICA del pedido mensual.
+- La fórmula ahora usa referencias directas por fila: MAX(0, CONSUMO MENSUAL × 1,15 - STOCK ACTUAL).
+- Se eliminó la dependencia de referencias estructuradas de tabla que Excel podía romper al generar el archivo.
