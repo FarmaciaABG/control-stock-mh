@@ -108,3 +108,10 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - Solo se usan equivalencias exactas, normalizaciones determinísticas ya materializadas o equivalencias revisadas manualmente.
 - Mapa actual: 151 equivalencias validadas.
 - Las filas sin equivalencia se omiten en vez de asignar un producto parecido.
+
+- v3.2.2: Pedido mensual MH consolida alias históricos antes del CPM3.
+- Se detectaron 6 equivalencias con más de un nombre histórico para la misma glosa de bodega; sus consumos se suman por mes y luego se promedian los últimos 3 meses.
+- El stock del pedido usa primero el nombre canónico y, si no existe stock bajo ese nombre, busca el alias histórico equivalente sin sumar stock duplicado.
+- El Excel identifica correctamente el establecimiento como CECOSF Martín Henríquez.
+- Las filas de la plantilla que no corresponden a MH quedan totalmente vacías, incluida SOLICITUD TEÓRICA.
+- Se mantiene el mapa explícito de equivalencias y continúa prohibido el matching difuso.

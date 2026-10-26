@@ -1,1064 +1,1523 @@
 {
-  "version": "2026-10-21",
+  "version": "2026-10-26",
   "establishment": "MH",
-  "policy": "Equivalencias explícitas. No se permite matching difuso durante la preparación del pedido.",
+  "policy": "Equivalencias explícitas sin matching difuso. Los alias históricos de una misma glosa de bodega se consolidan por mes antes de calcular CPM3.",
   "mappings": [
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Aciclovir Comprimidos 400 Mg   Comprimidos",
       "mhProduct": "Aciclovir Comprimidos 400 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Aciclovir Comprimidos 400 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Aciclovir Crema Dermica 5% (15 g)   Crema",
       "mhProduct": "Aciclovir Crema Dermica 5% (15 g)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Aciclovir Crema Dermica 5% (15 g)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Acido Acetilsalicilico   100 mg  COMPRIMIDOS",
       "mhProduct": "Acido Acetilsalicilico Comprimidos 100 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Acido Acetilsalicilico Comprimidos 100 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Acido Folico  1 mg  COMPRIMIDOS",
       "mhProduct": "Acido Folico 1 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Acido Folico 1 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Acido Folico 5 mg Comprimidos   Comprimidos",
       "mhProduct": "Acido Folico 5 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Acido Folico 5 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Acido Valp. Liberación Prolongada 500 mg  Cm.",
       "mhProduct": "Acido Valproico 500 mg Comprimidos de Liberacion Prolongada",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Acido Valproico 500 mg Comprimidos de Liberacion Prolongada"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Acido Valproico Comprimidos Recubiertos 200 Mg",
       "mhProduct": "Acido Valproico Comprimidos Con Recubrimiento Enterico 200 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Acido Valproico Comprimidos Con Recubrimiento Enterico 200 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Amitriptilina Clorhidrato 25 mg  Cm.",
       "mhProduct": "Amitriptilina Clorhidrato 25 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Amitriptilina Clorhidrato 25 mg Comprimidos",
+        "Amitriptilina Clorhidrato 25 Mg Comprimidos Recubiertos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Amlodipino  10 mg  COMPRIMIDOS",
       "mhProduct": "Amlodipino Comprimidos 10 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Amlodipino Comprimidos 10 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Amlodipino 5 mg   COMPRIMIDOS",
       "mhProduct": "Amlodipino Comprimidos 5 mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Amlodipino Comprimidos 5 mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Amoxicilina  500 mg  CAPSULAS",
       "mhProduct": "Amoxicilina 500 mg Capsulas",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Amoxicilina 500 mg Capsulas",
+        "Amoxicilina Capsulas 500 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Amoxicilina Con Acido Clavulanico 400 mg./57 mg. Jbe. 5 ml.Frco.",
       "mhProduct": "Amoxicilina 400 mg/Acido Clavulanico 57 mg en 5 ml, Suspension oral, frasco 70 ml",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Amoxicilina 400 mg/Acido Clavulanico 57 mg en 5 ml, Suspension oral, frasco 70 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Amoxicilina Con Acido Clavulanico  500 / 125mg  Cm.",
       "mhProduct": "Amoxicilina Con Acido Clavulanico 500/125 Mg Comprimidos",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Amoxicilina Con Acido Clavulanico 500/125 Mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Amoxicilina Polvo P/Susp.Oral  500 mg/5 ml (60 ml)  JARABE",
       "mhProduct": "Amoxicilina Polvo P/Susp.Oral 500 Mg/5 Ml (60 ml)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Amoxicilina Polvo P/Susp.Oral 500 Mg/5 Ml (60 ml)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Antiespasmodico Adulto Sup. (Abalgin sup. Adu.))",
       "mhProduct": "Abalgin Adultos Supositorios",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Abalgin Adultos Supositorios"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Atenolol  50 mg  COMPRIMIDOS",
       "mhProduct": "Atenolol 50 Mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Atenolol 50 Mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Atorvastatina  20 mg  COMPRIMIDOS",
       "mhProduct": "Atorvastatina 20 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Atorvastatina 20 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Azitromicina 500 mg   COMPRIMIDOS",
       "mhProduct": "Azitromicina 500 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Azitromicina 500 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Betametasona Crema Dérmica  0,05% (15 gr)  CREMA",
       "mhProduct": "Betametasona Crema Dermica 0,05% (15 g)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Betametasona Crema Dermica 0,05% (15 g)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Betametasona Solucion Inyectable 4 Mg/Ml (amp)",
       "mhProduct": "Betametasona Fosfato Disodico 4 mg/1 ml, Solucion Inyectable, ampolla",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Betametasona Fosfato Disodico 4 mg/1 ml, Solucion Inyectable, ampolla"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Brimonidina 0.2% 5ml  FRASCOS",
       "mhProduct": "Brimonidina 0,2% Solucion Oftalmica, frasco 5 ml (1 ml=20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Brimonidina 0,2% Solucion Oftalmica, frasco 5 ml (1 ml=20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Bromuro De Ipratr. Aerosol Para Inhalacion 20 Mcg/Dosis (200 dos)",
       "mhProduct": "Bromuro De Ipratropio 20 mcg/dosis Aerosol Para Inhalacion , 200 dosis (prescribe dosis)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Bromuro De Ipratropio 20 mcg/dosis Aerosol Para Inhalacion , 200 dosis (prescribe dosis)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Budesonida Adultos Aerosol  Inhalacion 200 Mcg/Dosis (200 dos)",
       "mhProduct": "Budesonida 200 mcg/dosis Aerosol Para Inhalacion , 200 dosis (prescribe dosis)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Budesonida 200 mcg/dosis Aerosol Para Inhalacion , 200 dosis (prescribe dosis)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Carbamazepina  200 mg  Cm.",
       "mhProduct": "Carbamazepina Comprimidos 200 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Carbamazepina Comprimidos 200 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Carvedilol  12,5 mg   COMPRIMIDOS",
       "mhProduct": "Carvedilol 12,5 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Carvedilol 12,5 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Carvedilol  25mg   COMPRIMIDOS",
       "mhProduct": "Carvedilol 25 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Carvedilol 25 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Carvedilol 6,25 mg Comprimidos",
       "mhProduct": "Carvedilol 6,25 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Carvedilol 6,25 mg Comprimidos",
+        "Carvedilol Comprimidos 6,25 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Cefadroxilo 500 mg Capsulas",
       "mhProduct": "Cefadroxilo 500 mg Capsulas",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Cefadroxilo 500 mg Capsulas"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Celecoxib Capsulas 200 Mg",
       "mhProduct": "Celecoxib 200 mg Capsulas",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Celecoxib 200 mg Capsulas",
+        "Celecoxib Capsulas 200 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Ciprofloxacino Comprimidos Recubiertos 500 Mg   Cm.",
       "mhProduct": "Ciprofloxacino Comprimidos Recubiertos 500 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Ciprofloxacino Comprimidos Recubiertos 500 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Citalopram Comprimidos Recubiertos 20 Mg",
       "mhProduct": "Citalopram 20 mg comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Citalopram 20 mg comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Claritromicina Comprimidos Recubiertos 500 Mg   Cm.",
       "mhProduct": "Claritromicina Comprimidos Recubiertos 500 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Claritromicina Comprimidos Recubiertos 500 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Claritromicina Polvo Gran. Para Susp. Oral 250 Mg/5 Ml (80 ml)Fco.",
       "mhProduct": "Claritromicina Polvo Granular Para Susp. Oral 250 Mg/5 Ml (80 ml)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Claritromicina Polvo Granular Para Susp. Oral 250 Mg/5 Ml (80 ml)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Cloranfenicol Solución Oftálmica  10 ml  FRASCOS",
       "mhProduct": "Cloranfenicol 0,5% Solucion Oftalmica, frasco 10 ml (1 ml= 20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Cloranfenicol 0,5% Solucion Oftalmica, frasco 10 ml (1 ml= 20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Cloranfenicol Unguento Oftalmico 1% (3,5 gr)  POMO",
       "mhProduct": "Cloranfenicol 1% Ungüento Oftalmico , pomo",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Cloranfenicol 1% Ungüento Oftalmico , pomo"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Clorfenamina Maleato Comprimidos Recubiertos 4 Mg   Cm.",
       "mhProduct": "Clorfenamina Maleato Comprimidos Recubiertos 4 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Clorfenamina Maleato Comprimidos Recubiertos 4 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Clorfenamina Maleato Solucion Inyectable 10 Mg/Ml ( amp)",
       "mhProduct": "Clorfenamina Maleato Solucion Inyectable 10 Mg/Ml ( amp)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Clorfenamina Maleato Solucion Inyectable 10 Mg/Ml ( amp)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Clorpromazina Clorhidrato Comprimidos 100 Mg   Comprimidos",
       "mhProduct": "Clorpromazina Clorhidrato Comprimidos 100 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Clorpromazina Clorhidrato Comprimidos 100 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Clotrimazol 500 Mg    OVULOS",
       "mhProduct": "Clotrimazol 500 Mg Ovulos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Clotrimazol 500 Mg Ovulos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Clotrimazol Crema Topica 1%   Comprimidos",
       "mhProduct": "Clotrimazol Crema Topica 1%",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Clotrimazol Crema Topica 1%"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Cotrimoxazol Comprimidos Forte 800 +160 mg.   Comprimidos",
       "mhProduct": "Cotrimoxazol Forte (Sulfametoxazol 800mg/Trimetoprim 160mg) Comp.",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Cotrimoxazol Forte (Sulfametoxazol 800mg/Trimetoprim 160mg) Comp."
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Desloratadina (Ira-Era) 5 mg  COMPRIMIDOS",
       "mhProduct": "Desloratadina Comprimidos Recubiertos 5 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Desloratadina Comprimidos Recubiertos 5 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Diclofenaco Sodico  50 mg  COMPRIMIDOS",
       "mhProduct": "Diclofenaco Sodico 50 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Diclofenaco Sodico 50 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Diclofenaco Sodico Solucion Inyectable 75 Mg/3 Ml (amp)",
       "mhProduct": "Diclofenaco Sodico Solucion Inyectable 75 Mg/3 Ml (amp)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Diclofenaco Sodico Solucion Inyectable 75 Mg/3 Ml (amp)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Diclofenaco Sodico Supositorios Infantil 12,5 Mg   Sup.",
       "mhProduct": "Diclofenaco Sodico Supositorios Infantil 12,5 Mg",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Diclofenaco Sodico Supositorios Infantil 12,5 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Digoxina  0,25 mg  COMPRIMIDOS",
       "mhProduct": "Digoxina Comprimidos 0,25 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Digoxina Comprimidos 0,25 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Domperidona 10 mg Cm.   Comprimidos",
       "mhProduct": "Domperidona 10 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Domperidona 10 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Dorzolamida 20 MG. 2 % Sol. Oft. Esteril 5 ml ud.",
       "mhProduct": "Dorzolamida 2% Solucion Oftalmica, frasco 5 ml (1 ml=20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Dorzolamida 2% Solucion Oftalmica, frasco 5 ml (1 ml=20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Dorzolamida 20 mg. + Timolol 5 mg.    FRASCOS",
       "mhProduct": "Dorzolamida 20 mg/ Timolol 5 mg en 1 ml Solucion Oftalmica, frasco 5 ml (1 ml= 20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Dorzolamida 20 mg/ Timolol 5 mg en 1 ml Solucion Oftalmica, frasco 5 ml (1 ml= 20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Duloxetina  con Granulos Con Recub. Enterico 30 Mg.   Cap.",
       "mhProduct": "Duloxetina 30 mg Capsulas",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Duloxetina 30 mg Capsulas"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Enalapril Maleato Comprimidos Recubiertos  10 mg  Cm.",
       "mhProduct": "Enalapril Maleato Comprimidos Recubiertos 10 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Enalapril Maleato Comprimidos Recubiertos 10 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Espironolactona Comprimidos 25 Mg",
       "mhProduct": "Espironolactona Comprimidos 25 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Espironolactona Comprimidos 25 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Famotidina  40 mg  COMPRIMIDOS",
       "mhProduct": "Famotidina Comprimidos 40 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Famotidina Comprimidos 40 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Fenitoina Sodica  100 mg  COMPRIMIDOS",
       "mhProduct": "Fenitoina Sodica Comprimidos 100 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Fenitoina Sodica Comprimidos 100 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Flucloxacilina  500 mg  CAPSULAS",
       "mhProduct": "Flucloxacilina 500 mg Capsulas",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Flucloxacilina 500 mg Capsulas"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Flucloxacilina Polvo Para Jarabe 250 mg/5ml (60ml)  FRASCOS",
       "mhProduct": "Flucloxacilina 250 mg/5 ml Polvo Para Suspension Oral , frasco 60 ml",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Flucloxacilina 250 mg/5 ml Polvo Para Suspension Oral , frasco 60 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Fluconazol 150 mgs. Caps.",
       "mhProduct": "Fluconazol 150 mg Capsulas",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Fluconazol 150 mg Capsulas"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Fluoxetina Clorhidrato 20 Mg  Comprimidos",
       "mhProduct": "Fluoxetina Comprimidos Recubiertos 20 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Fluoxetina Comprimidos Recubiertos 20 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Fluticasona 125 mcg Do Inhalador",
       "mhProduct": "Fluticasona Propionato Aerosol Para Inhalacion 125 Mcg/Dosis (120 dos)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Fluticasona Propionato Aerosol Para Inhalacion 125 Mcg/Dosis (120 dos)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Fluticasona/Salmeterol 125 mcg/25 ug Do Inhalador",
       "mhProduct": "Fluticasona Propionato/Salmeterol (125/25) Aerosol Para Inhalacion (120 dos)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Fluticasona Propionato/Salmeterol (125/25) Aerosol Para Inhalacion (120 dos)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Fluticasona/Salmeterol 250 mcg/25 ug Do Inhalador",
       "mhProduct": "Fluticasona Propionato/Salmeterol 250/25 Aerosol Para Inhalacion (120 dos)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Fluticasona Propionato/Salmeterol 250/25 Aerosol Para Inhalacion (120 dos)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Fumarato Ferroso 330 mg Cap. Con Granulos Con Hierro De Liber. Prolon. (Folifer)",
       "mhProduct": "Folifer Capsulas Con Granulos Con Hierro De Liberacion Prolongada",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Folifer Capsulas Con Granulos Con Hierro De Liberacion Prolongada"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Furosemida  40 mg  COMPRIMIDOS",
       "mhProduct": "Furosemida 40 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Furosemida 40 mg Comprimidos",
+        "Furosemida Comprimidos 40 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Gemfibrozilo Comprimidos Recubiertos 600 Mg   Comprimidos",
       "mhProduct": "Gemfibrozilo Comprimidos Recubiertos 600 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Gemfibrozilo Comprimidos Recubiertos 600 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Gentamicina Solucion Oftalmica  0,3% (5 ml)  FRASCOS",
       "mhProduct": "Gentamicina 0,3% Solucion Oftalmica , frasco 5 ml (1 ml= 20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Gentamicina 0,3% Solucion Oftalmica , frasco 5 ml (1 ml= 20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Gentamicina Unguento Oftálmico 0,3%  POMO",
       "mhProduct": "Gentamicina 0,3% Ungüento Oftalmico , pomo",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Gentamicina 0,3% Ungüento Oftalmico , pomo"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Glibenclamida  5 mg  COMPRIMIDOS",
       "mhProduct": "Glibenclamida Comprimidos 5 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Glibenclamida Comprimidos 5 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Haloperidol 1 Mg Comprimidos",
       "mhProduct": "Haloperidol 1 Mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Haloperidol 1 Mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Haloperidol BE 5 mg  COMPRIMIDOS",
       "mhProduct": "Haloperidol 5 Mg Comprimidos",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Haloperidol 5 Mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Hidroclorotiazida Comprimidos 50 Mg",
       "mhProduct": "Hidroclorotiazida Comprimidos 50 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Hidroclorotiazida Comprimidos 50 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Hidrocortisona 1 %    CREMA",
       "mhProduct": "Hidrocortisona 1 % Crema Topica , pomo",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Hidrocortisona 1 % Crema Topica , pomo"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Hidrocortisona Polvo Para Solucion Inyectable 100 Mg  Amp.",
       "mhProduct": "Hidrocortisona Polvo Para Solucion Inyectable 100 Mg",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Hidrocortisona Polvo Para Solucion Inyectable 100 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Ibuprofeno  200 mg/5 ml (100ml)  JARABE",
       "mhProduct": "Ibuprofeno 200 mg/5 ml Suspension Oral , frasco 100 ml",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Ibuprofeno 200 mg/5 ml Suspension Oral , frasco 100 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Ibuprofeno Comprimidos Recubiertos  400 mg  COMPRIMIDOS",
       "mhProduct": "Ibuprofeno Comprimidos Recubiertos 400 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Ibuprofeno Comprimidos Recubiertos 400 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Insulina Cristalina 100 U.I./mL F.A. 10 mL",
       "mhProduct": "Insulina Cristalina 100 U.I/ml,frasco ampolla 10 ml",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Insulina Cristalina 100 U.I/ml,frasco ampolla 10 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Insulina Humana NPH Inyectable 100 U.I./mL F.A 10 mL",
       "mhProduct": "Insulina NPH fco amp 100UI/ml fco 10 ml",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Insulina NPH fco amp 100UI/ml fco 10 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Isosorbide Dinitrato   10 mg  COMPRIMIDOS",
       "mhProduct": "Isosorbide Dinitrato Comprimidos 10 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Isosorbide Dinitrato Comprimidos 10 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Lactulosa 65% o 66,7% sol. oral 200 mL   FRASCOS",
       "mhProduct": "Lactulosa 65% Solucion Oral , frasco 200 ml",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Lactulosa 65% Solucion Oral , frasco 200 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Lagrima artificial    FRASCOS",
       "mhProduct": "Lagrimas Artificiales Solucion Oftalmica , frasco 15 ml (1 ml= 20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Lagrimas Artificiales Solucion Oftalmica , frasco 15 ml (1 ml= 20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Lamotrigina  100 mg  COMPRIMIDOS",
       "mhProduct": "Lamotrigina Comprimidos 100 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Lamotrigina Comprimidos 100 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Lamotrigina Cm 50 Mg (S. S. M. S.)",
       "mhProduct": "Lamotrigina Comprimidos 50 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Lamotrigina Comprimidos 50 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Levetiracetam  1000 mg  COMPRIMIDOS",
       "mhProduct": "Levetiracetam 1000 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Levetiracetam 1000 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Levetiracetam  500 mg  COMPRIMIDOS",
       "mhProduct": "LEVETIRACETAM 500 mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "LEVETIRACETAM 500 mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Levodopa/Benserazida  200/ 50 mg  COMPRIMIDOS",
       "mhProduct": "Levodopa 200mg + Benserazida 50mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Levodopa 200mg + Benserazida 50mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Levodopa / Carbidopa  250 / 25 mg  COMPRIMIDOS",
       "mhProduct": "Levodopa 250 mg+ carbidopa 25 mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Levodopa 250 mg+ carbidopa 25 mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Levotiroxina  100 mcg  COMPRIMIDOS",
       "mhProduct": "Levotiroxina Sodica Comprimidos 100 Mcg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Levotiroxina Sodica Comprimidos 100 Mcg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Levotiroxina  50 mcg  COMPRIMIDOS",
       "mhProduct": "Levotiroxina Sodica Comprimidos 50 Mcg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Levotiroxina Sodica Comprimidos 50 Mcg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Lidocaina Clorhidrato 2% Solucion Inyectable Amp. De 5 Ml",
       "mhProduct": "Lidocaina Clorhidrato 2% Solucion Inyectable Ampollas De 5 Ml",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Lidocaina Clorhidrato 2% Solucion Inyectable Ampollas De 5 Ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Loratadina 10 mg  COMPRIMIDOS",
       "mhProduct": "Loratadina 10 Mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Loratadina 10 Mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Loratadina  5mg / 5ml  Jbe x 60ml",
       "mhProduct": "Loratadina 5 mg/5 ml Jarabe , frasco 60 ml",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Loratadina 5 mg/5 ml Jarabe , frasco 60 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Losartan Potasico Comprimidos Recubiertos  50 mg",
       "mhProduct": "Losartan Potasico Comprimidos Recubiertos 50 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Losartan Potasico Comprimidos Recubiertos 50 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Mebendazol Comprimidos 100 Mg   Cm.",
       "mhProduct": "Mebendazol Comprimidos 100 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Mebendazol Comprimidos 100 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Metamizol Sodico (Dipirona) Solucion Inyectable 1 gr/2 ml  Amp.",
       "mhProduct": "Metamizol Sodico (Dipirona) Solucion Inyectable 1 G/2 Ml",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Metamizol Sodico (Dipirona) Solucion Inyectable 1 G/2 Ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Metformina 1000 mg XR  COMPRIMIDOS",
       "mhProduct": "Metformina Clorhidrato 1000 mg Comprimidos de Liberacion Prolongada",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Metformina Clorhidrato 1000 mg Comprimidos de Liberacion Prolongada"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Metformina Comprimido Recubierto 850 mg  Cm.",
       "mhProduct": "Metformina Clorhidrato Comprimidos Recubiertos 850 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Metformina Clorhidrato Comprimidos Recubiertos 850 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Metoclopramida Clorhidrato Solucion Inyectable 10 Mg/2 Ml (amp)",
       "mhProduct": "Metoclopramida Clorhidrato Solucion Inyectable 10 Mg/2 Ml (amp)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Metoclopramida Clorhidrato Solucion Inyectable 10 Mg/2 Ml (amp)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Metronidazol 500 mg Ovulos  ud.   OVULOS",
       "mhProduct": "Metronidazol Ovulos 500 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Metronidazol Ovulos 500 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Metronidazol Comprimidos Recubiertos 500 Mg   Cm.",
       "mhProduct": "Metronidazol Comprimidos Recubiertos 500 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Metronidazol Comprimidos Recubiertos 500 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Nitrofurantoina Macrocristales 100 mg  CAPSULAS",
       "mhProduct": "Nitrofurantoina Macrocristales, Capsulas 100 Mg",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Nitrofurantoina Macrocristales, Capsulas 100 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Omeprazol  20 mg  CAPSULAS",
       "mhProduct": "Omeprazol 20 mg Capsulas",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Omeprazol 20 mg Capsulas",
+        "Omeprazol Capsulas 20 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Papaverina/ Atropina (Dolospam)  40 mg/ 0,5 mg  COMPRIMIDOS",
       "mhProduct": "Dolospam Comprimidos",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Dolospam Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Paracetamol   500 mg  COMPRIMIDOS",
       "mhProduct": "Paracetamol 500 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Paracetamol 500 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Paracetamol Infantil Comprimidos Masticables 80 Mg",
       "mhProduct": "Paracetamol Infantil Comprimidos Masticables 80 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Paracetamol Infantil Comprimidos Masticables 80 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Paracetamol Sol.Para Gotas Orales 100 Mg/Ml (15 ml)   Frasco",
       "mhProduct": "Paracetamol Solucion Para Gotas Orales 100 Mg/Ml (15 ml)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Paracetamol Solucion Para Gotas Orales 100 Mg/Ml (15 ml)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Paracetamol  Sup. 125 mg  SUPOSITORIOS",
       "mhProduct": "Paracetamol 125 Mg Supositorios",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Paracetamol 125 Mg Supositorios"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Pargeverina 5mg / 2ml Amp.",
       "mhProduct": "Pargeverina Clorhidrato 5 mg/1 ml Solucion Inyectable , ampolla",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Pargeverina Clorhidrato 5 mg/1 ml Solucion Inyectable , ampolla"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Paroxetina 20 Mg Comprimidos Recubiertos",
       "mhProduct": "Paroxetina 20 Mg Comprimidos Recubiertos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Paroxetina 20 Mg Comprimidos Recubiertos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Penicilina G (Como Benzatina)Polvo Susp. Inyect. 1,200,000 U.I. ud.",
       "mhProduct": "Penicilina G (Como Benzatina) Polvo Para Suspension Inyectable 1,200,000 U.I. (fra)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Penicilina G (Como Benzatina) Polvo Para Suspension Inyectable 1,200,000 U.I. (fra)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Pramipexol   0,25 mg  COMPRIMIDOS",
       "mhProduct": "Sifrol (Pramipexol) 0,25 mg.",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Sifrol (Pramipexol) 0,25 mg."
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Pramipexol  1 mg  COMPRIMIDOS",
       "mhProduct": "Sifrol Comprimidos 1 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Sifrol Comprimidos 1 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Prednisona  20 mg  COMPRIMIDOS",
       "mhProduct": "Prednisona 20 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Prednisona 20 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Prednisona  5  Mg.  Cm.   COMPRIMIDOS",
       "mhProduct": "Prednisona 5 Mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Prednisona 5 Mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Prednisona Jarabe 20 mg/5 ml  FRASCOS",
       "mhProduct": "Prednisona 20 mg/5 ml Suspension Oral , frasco 60 ml",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Prednisona 20 mg/5 ml Suspension Oral , frasco 60 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Propranolol  40 mg  COMPRIMIDOS",
       "mhProduct": "Propanolol Comprimidos 40 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Propanolol Comprimidos 40 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Quetiapina  100 mg  COMPRIMIDOS",
       "mhProduct": "Quetiapina 100 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Quetiapina 100 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Risperidona Comprimidos Recubiertos 1 Mg",
       "mhProduct": "Risperidona 1 mg comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Risperidona 1 mg comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Salbutamol  100 ug/dosis  INHALADORES",
       "mhProduct": "Salbutamol Aerosol Para Inhalacion Bucal 100 Mcg/Dosis (200 dos)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Salbutamol Aerosol Para Inhalacion Bucal 100 Mcg/Dosis (200 dos)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Sales Para Rehidratacion Oral-60 Polvo Para Solucion (sac)   Sobre",
       "mhProduct": "Sales Para Rehidratacion Oral-60 Polvo Para Solucion (sac)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Sales Para Rehidratacion Oral-60 Polvo Para Solucion (sac)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Sales Para Rehidratacion Oral-90 Polvo Para Solucion (sac)   Sobre",
       "mhProduct": "Sales Para Rehidratacion Oral-90 Polvo Para Solucion. (sac)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Sales Para Rehidratacion Oral-90 Polvo Para Solucion. (sac)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Salmeterol 25 Ug/Do Inhalador Presurizado Fc 120 Do",
       "mhProduct": "Salmeterol Aerosol Para Inhalacion 25 Mcg/Dosis (120 dos)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Salmeterol Aerosol Para Inhalacion 25 Mcg/Dosis (120 dos)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Sertralina  50 mg   COMPRIMIDOS",
       "mhProduct": "Sertralina 50 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Sertralina 50 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Sulfato Ferroso  200 mg  COMPRIMIDOS",
       "mhProduct": "Sulfato Ferroso Comprimidos 200 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Sulfato Ferroso Comprimidos 200 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Terbinafina  250 mg  COMPRIMIDOS",
       "mhProduct": "Terbinafina 250 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Terbinafina 250 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Timolol 0,5 %    10 ml.  FRASCOS",
       "mhProduct": "Timolol 0,5% Solucion Oftalmica , frasco 10 ml (1 ml= 20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Timolol 0,5% Solucion Oftalmica , frasco 10 ml (1 ml= 20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Tramadol Clorhidrato Fc 100 Mg/Ml Solucion En Gotas 10 Ml",
       "mhProduct": "Tramadol Clorhidrato Solucion Oral Para Gotas 100 Mg/Ml (10 ml)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Tramadol Clorhidrato Solucion Oral Para Gotas 100 Mg/Ml (10 ml)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Travoprost 0,004% + Timolol 0,5 mg. Fco (Duotrav)   FRASCOS",
       "mhProduct": "Travoprost 0,004%/Timolol 0,5% Solucion Oftalmica, frasco 2,5 ml (1 ml= 20 gotas) (prescribe gotas)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Travoprost 0,004%/Timolol 0,5% Solucion Oftalmica, frasco 2,5 ml (1 ml= 20 gotas) (prescribe gotas)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Trazodona Clorhidrato 100 mg COMPRIMIDOS",
       "mhProduct": "Trazodona 100 mg Comprimidos",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Trazodona 100 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Trihexifenidilo Clorhidrato (Tonaril) 2 mg  COMPRIMIDOS",
       "mhProduct": "Tonaril Comprimidos 2 Mg",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Tonaril Comprimidos 2 Mg"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Venlafaxina 37.5 mg Liberación Prolongada  CAPSULAS",
       "mhProduct": "Venlafaxina 37,5 mg Capsulas de Liberacion Prolongada",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Venlafaxina 37,5 mg Capsulas de Liberacion Prolongada"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Venlafaxina 75 mg XR  COMPRIMIDOS",
       "mhProduct": "Venlafaxina 75 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Venlafaxina 75 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Vildagliptina  50  mg.  Cm.",
       "mhProduct": "Vildagliptina 50 mg Comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Vildagliptina 50 mg Comprimidos"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Vitaminas ACD gotas fco 30 ml   Frasco",
       "mhProduct": "Vitaminas ACD gotas fco 30 ml",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Vitaminas ACD gotas fco 30 ml"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Vitaminas B1, B6, B12 10.000 Solucion Inyectable (amp)",
       "mhProduct": "Vitaminas B1, B6, B12 10.000 Solucion Inyectable (amp)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Vitaminas B1, B6, B12 10.000 Solucion Inyectable (amp)"
+      ]
     },
     {
       "sheet": "MEDICAMENTOS",
       "templateProduct": "Zinc sol. oral gotas 5mg/mL   FRASCOS",
       "mhProduct": "Sulfato de Zinc 5 mg / ml Frasco 30 ml",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Sulfato de Zinc 5 mg / ml Frasco 30 ml"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "(Anulette) Levonorgestrel 0,15mg / Etinilestradiol 0,03mg Recubierto Cm.  ( blister 28cm )  CICLOS",
       "mhProduct": "Etinilestradiol 30 mcg + Levonergestrel 150 mcg Comprimidos.",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Etinilestradiol 30 mcg + Levonergestrel 150 mcg Comprimidos."
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Estradiol/Didrogesterona   1mg/5mg ud.",
       "mhProduct": "Estradiol 1mg / Didrogesterona 5mg, Blister",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Estradiol 1mg / Didrogesterona 5mg, Blister"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Estradiol gel 0,5 mg/ dosis   FRASCOS",
       "mhProduct": "Estradiol Micronizado 0,5 mg/aplicacion Gel Transdermico, frasco 95 g",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Estradiol Micronizado 0,5 mg/aplicacion Gel Transdermico, frasco 95 g"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Etonogestrel/Etinilestradiol  11,7mg/2,7mg (Anillo Vaginal)  Sobre ud.",
       "mhProduct": "Etonogestrel 11,7 mg /Etinilestradiol 2,7 mg, anillo Vaginal",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Etonogestrel 11,7 mg /Etinilestradiol 2,7 mg, anillo Vaginal"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Etonogestrel implante subcutaneo 68 mg  UNIDAD",
       "mhProduct": "Etonogestrel 68 mg Implante (Implanon)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Etonogestrel 68 mg Implante (Implanon)"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Levonorgestrel  (Anulit) 0,03mg.  CICLOS",
       "mhProduct": "Levonorgestrel 0,03 mg comprimidos",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Levonorgestrel 0,03 mg comprimidos"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Levonorgestrel Dispositivo Intrauterino 20mcg/24 hrs. (Mirena)   52mg",
       "mhProduct": "Levonorgestrel 20 mcg/24 hrs sistema intrauterino",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Levonorgestrel 20 mcg/24 hrs sistema intrauterino"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Lubricante acuoso (Prog. salud Sexual y Reproductiva) POMO",
       "mhProduct": "GEL LUBRICANTE INTIMO TUBO 50 GR (PROGRAMA MUJER)",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "GEL LUBRICANTE INTIMO TUBO 50 GR (PROGRAMA MUJER)"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Medroxiprogesterona Acetato 150 mg./1 ml. 150mg/1ml  JERINGA",
       "mhProduct": "Depo - Prodasone Suspension Inyectable 150 Mg/1 Ml (1 ml)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Depo - Prodasone Suspension Inyectable 150 Mg/1 Ml (1 ml)"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Medroxiprogesterona Acetato Susp. Inyectable (Sayana ) 104 mg/0.65 ml  JERINGA",
       "mhProduct": "Medroxiprogesterona Acetato 104 mg/0.65 ml jeringa prellenada",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Medroxiprogesterona Acetato 104 mg/0.65 ml jeringa prellenada"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Medroxiprogesterona/Estradiol (Novafem Jeringa) 25/5 mg  JERINGA",
       "mhProduct": "Novafem Suspension Inyectable (amp)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Novafem Suspension Inyectable (amp)"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Noretisterona/Estradiol (Mesigyna) 50/5 mg   JERINGA",
       "mhProduct": "Enantato de Noretisterona 50mg; Valerato de estradiol 5mg (Mesigyna inyectable)",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Enantato de Noretisterona 50mg; Valerato de estradiol 5mg (Mesigyna inyectable)"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Preservativos resistente , C/Lubricante a base solucion acuosa o silicona ud.",
       "mhProduct": "Preservativo Paternidad Responsable",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Preservativo Paternidad Responsable"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Progesterona Micronizada  100 mg  CICLOS",
       "mhProduct": "Progesterona Micronizada 100 mg Capsulas",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Progesterona Micronizada 100 mg Capsulas"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "T  de Cobre Modelo 380A   UNIDAD",
       "mhProduct": "T.C.U. de Cobre",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "T.C.U. de Cobre"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Test de Embarazo en orina   OTROS",
       "mhProduct": "Test de Embarazo",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa."
+      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "mhAliases": [
+        "Test de Embarazo"
+      ]
     },
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "Tibolona   2,5 mg  COMPRIMIDOS",
       "mhProduct": "Tibolona 2,5 mg Comprimidos, blister",
       "validation": "normalización segura",
-      "notes": "Coincidencia determinística; sin similitud difusa."
+      "notes": "Coincidencia determinística; sin similitud difusa.",
+      "mhAliases": [
+        "Tibolona 2,5 mg Comprimidos, blister"
+      ]
     }
   ]
 }
