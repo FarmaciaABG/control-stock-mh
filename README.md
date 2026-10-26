@@ -86,3 +86,25 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - v3.1.1: corrige #REF! en la columna SOLICITUD TEÓRICA del pedido mensual.
 - La fórmula ahora usa referencias directas por fila: MAX(0, CONSUMO MENSUAL × 1,15 - STOCK ACTUAL).
 - Se eliminó la dependencia de referencias estructuradas de tabla que Excel podía romper al generar el archivo.
+
+- v3.1.3: corrige la generación del pedido mensual.
+- Se restauró la plantilla oficial ABG original, compatible con ExcelJS.
+- Se mantiene la fórmula directa por fila en SOLICITUD TEÓRICA para evitar #REF!.
+- No se usa la plantilla reconstruida que provocaba el error "Cannot read properties of undefined (reading 'sheets')".
+
+- v3.2.0: inventario rotativo MH corregido y alineado con el flujo de ABG.
+- Stock sistema manual: ya no se precarga desde el último stock Rayen.
+- Inventarios incompletos quedan como PENDIENTES.
+- El historial permite Abrir / continuar pendientes y Ver resumen de completos.
+- Guardar / actualizar modifica el mismo inventario abierto.
+- Segundo conteo opcional; si se ingresa, pasa a ser el valor usado para la diferencia final.
+- Cálculo en vivo de Diferencia final y Resultado.
+- Sincronización Supabase del estado del inventario: en_proceso para pendientes y realizado para completos.
+- El segundo conteo se guarda en qf_recount de inventory_items.
+- Excel amigable con título, establecimiento, estado, avance, campos manuales resaltados, fórmulas y configuración de impresión.
+
+- v3.2.1: Pedido mensual utiliza `pedido_equivalencias_mh.json`.
+- Se eliminó el matching difuso del módulo de pedido.
+- Solo se usan equivalencias exactas, normalizaciones determinísticas ya materializadas o equivalencias revisadas manualmente.
+- Mapa actual: 151 equivalencias validadas.
+- Las filas sin equivalencia se omiten en vez de asignar un producto parecido.

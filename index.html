@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gestión de Inventario CECOSF Martín Henríquez</title>
-  <link rel="stylesheet" href="styles-mh-v3.1.1.css">
-</head>
+  <link rel="stylesheet" href="styles-mh-v3.2.1.css">
+<meta name="app-build" content="v3.2.1"></head>
 <body>
 <header class="topbar">
   <div>
@@ -205,15 +205,15 @@
 
 <dialog id="weeklyInventoryDialog" class="xlarge-dialog">
   <form method="dialog">
-    <div class="dialog-head"><div><h3>Inventario rotativo semanal</h3><p>15 medicamentos con selección Pareto/ABC y prioridad IAAPS/FOFAR.</p></div><button value="close" class="secondary">Cerrar</button></div>
+    <div class="dialog-head"><div><h3>Inventario rotativo semanal</h3><p>15 productos con selección Pareto/ABC y prioridad IAAPS/FOFAR. El inventario puede guardarse pendiente y retomarse después.</p></div><button value="close" class="secondary">Cerrar</button></div>
     <div class="form-grid three inventory-meta">
       <label>Funcionario responsable<input id="weeklyResponsible" type="text" placeholder="Nombre funcionario"></label>
       <label>Fecha<input id="weeklyDate" type="date"></label>
       <label>Regla<input value="9 A · 4 B · 2 C" disabled></label>
     </div>
-    <div class="button-row wrap"><button type="button" id="generateWeekly" class="good-btn">Generar 15 medicamentos</button><button type="button" id="saveWeekly" class="secondary">Guardar inventario</button><button type="button" id="exportWeekly" class="secondary">Exportar Excel</button></div>
+    <div class="button-row wrap"><button type="button" id="generateWeekly" class="good-btn">Generar 15 productos</button><button type="button" id="saveWeekly" class="secondary">Guardar / actualizar</button><button type="button" id="exportWeekly" class="secondary">Exportar Excel</button></div>
     <div id="weeklySummary" class="info-strip">Aún no se genera listado.</div>
-    <div class="table-wrap"><table><thead><tr><th>N°</th><th>Medicamento</th><th>ABC</th><th>Trazador</th><th>Stock sistema</th><th>Stock físico</th><th>Diferencia</th><th>Resultado</th></tr></thead><tbody id="weeklyTable"></tbody></table></div>
+    <div class="table-wrap"><table><thead><tr><th>N°</th><th>Producto</th><th>ABC</th><th>Trazador</th><th>Stock sistema</th><th>1° conteo</th><th>2° conteo</th><th>Diferencia final</th><th>Resultado</th></tr></thead><tbody id="weeklyTable"></tbody></table></div>
     <h4>Historial reciente</h4><div id="weeklyHistory"></div>
   </form>
 </dialog>
@@ -351,7 +351,7 @@
 
 
 
-<footer>CECOSF Martín Henríquez · v3.1.1 · Clasificación y consumos actualizados</footer>
-<script src="app-mh-v3.1.1.js"></script>
+<footer>CECOSF Martín Henríquez · v3.2.1 · Clasificación y consumos actualizados</footer>
+<script src="app-mh-v3.2.1.js"></script>
 </body>
 </html>
