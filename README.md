@@ -115,3 +115,9 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - El Excel identifica correctamente el establecimiento como CECOSF Martín Henríquez.
 - Las filas de la plantilla que no corresponden a MH quedan totalmente vacías, incluida SOLICITUD TEÓRICA.
 - Se mantiene el mapa explícito de equivalencias y continúa prohibido el matching difuso.
+
+- v3.2.3: corrige la equivalencia de Anulette en Pedido mensual.
+- Producto principal: `Levonorgestrel+Etinilestradiol cm ANULETTE® blister 28 cm`.
+- Alias histórico consolidado: `Etinilestradiol 30 mcg + Levonergestrel 150 mcg Comprimidos.`.
+- El CPM de Pedido mensual suma ambos nombres mes a mes y luego calcula el promedio de los últimos 3 meses disponibles.
+- Se mantiene el matching difuso deshabilitado.

@@ -1352,10 +1352,11 @@
     {
       "sheet": "PATERNIDAD",
       "templateProduct": "(Anulette) Levonorgestrel 0,15mg / Etinilestradiol 0,03mg Recubierto Cm.  ( blister 28cm )  CICLOS",
-      "mhProduct": "Etinilestradiol 30 mcg + Levonergestrel 150 mcg Comprimidos.",
+      "mhProduct": "Levonorgestrel+Etinilestradiol cm ANULETTE® blister 28 cm",
       "validation": "manual validada",
-      "notes": "Identidad/concentración/presentación revisadas; sin similitud difusa.",
+      "notes": "Anulette consolidado: producto principal con histórico completo + alias histórico de misma concentración.",
       "mhAliases": [
+        "Levonorgestrel+Etinilestradiol cm ANULETTE® blister 28 cm",
         "Etinilestradiol 30 mcg + Levonergestrel 150 mcg Comprimidos."
       ]
     },
