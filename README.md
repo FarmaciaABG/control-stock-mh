@@ -126,3 +126,11 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - El guardado de stock valida explícitamente el borrado/reemplazo de stock_items antes de insertar el nuevo snapshot.
 - Se agrega un estado visible de nube con fecha del último stock, último mes de consumo e inventarios disponibles.
 - Stock, consumos, inventarios y clasificaciones continúan cargándose desde Supabase al abrir la aplicación en otro computador.
+
+- v3.2.5: sincronización robusta para uso desde múltiples computadores.
+- Se agrega cola local de cambios pendientes cuando Supabase no responde.
+- Stock, consumos, inventarios y clasificaciones quedan en cola si no hay conexión.
+- Al recuperar conexión, la aplicación intenta subir primero los cambios pendientes.
+- Se agrega reintento automático cada 15 segundos mientras existan cambios pendientes.
+- Estado visible: Sin conexión / cambios pendientes / sincronizando / sincronizado.
+- Se mantiene respaldo local para evitar pérdida de datos.
