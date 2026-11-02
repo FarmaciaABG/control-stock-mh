@@ -121,3 +121,8 @@ Los datos se guardan en localStorage con prefijo exclusivo `mh_v1_`, separado de
 - Alias histórico consolidado: `Etinilestradiol 30 mcg + Levonergestrel 150 mcg Comprimidos.`.
 - El CPM de Pedido mensual suma ambos nombres mes a mes y luego calcula el promedio de los últimos 3 meses disponibles.
 - Se mantiene el matching difuso deshabilitado.
+
+- v3.2.4: refuerza la sincronización multi-equipo de MH.
+- El guardado de stock valida explícitamente el borrado/reemplazo de stock_items antes de insertar el nuevo snapshot.
+- Se agrega un estado visible de nube con fecha del último stock, último mes de consumo e inventarios disponibles.
+- Stock, consumos, inventarios y clasificaciones continúan cargándose desde Supabase al abrir la aplicación en otro computador.
